@@ -1,6 +1,7 @@
 {
   "name": "aimcat-dashboard",
   "version": "0.1.0",
+  "homepage": "https://vedant312.github.io/AIMCAT-analysis",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
