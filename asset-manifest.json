@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/AIMCAT-analysis/static/css/main.963fa122.css",
-    "main.js": "/AIMCAT-analysis/static/js/main.05d7e30c.js",
+    "main.js": "/AIMCAT-analysis/static/js/main.8717ce38.js",
     "index.html": "/AIMCAT-analysis/index.html",
     "main.963fa122.css.map": "/AIMCAT-analysis/static/css/main.963fa122.css.map",
-    "main.05d7e30c.js.map": "/AIMCAT-analysis/static/js/main.05d7e30c.js.map"
+    "main.8717ce38.js.map": "/AIMCAT-analysis/static/js/main.8717ce38.js.map"
   },
   "entrypoints": [
     "static/css/main.963fa122.css",
-    "static/js/main.05d7e30c.js"
+    "static/js/main.8717ce38.js"
   ]
 }
