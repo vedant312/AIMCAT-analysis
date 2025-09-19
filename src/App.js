@@ -102,12 +102,52 @@ const AIMCATDashboard = () => {
     return sorted.slice(1, sorted.length - 4);
   };
 
-  // State for idcardno input
+  // State for idcardno input, prefix input, and submitted values
+  const [idcardnoInput, setIdcardnoInput] = useState('');
+  const [prefixInput, setPrefixInput] = useState('');
   const [idcardno, setIdcardno] = useState('');
+  const [prefix, setPrefix] = useState('595948');
 
-  // Default idcardno value
+  // Default idcardno value (encoded demo)
   const defaultIdcardno =
     '575b482b575b483d575b482c575b482e575b482d575b485a575b482e575b485c575b485d575b4856575b48';
+
+  // Encode string function (JS version)
+  function encodeString(inputString) {
+    const charMappings = {
+      D: '2b',
+      R: '3d',
+      C: '2c',
+      A: '2e',
+      B: '2d',
+    };
+    const digitMappings = {
+      0: '5f',
+      1: '5e',
+      2: '5d',
+      3: '5c',
+      4: '5b',
+      5: '5a',
+      6: '59',
+      7: '58',
+      8: '57',
+      9: '56',
+    };
+    let usedPrefix = prefix;
+    let encoded = '';
+    for (let char of inputString) {
+      encoded += usedPrefix;
+      if (charMappings[char]) {
+        encoded += charMappings[char];
+      } else if (digitMappings[char]) {
+        encoded += digitMappings[char];
+      } else {
+        // Unknown character
+        return null;
+      }
+    }
+    return encoded;
+  }
 
   // Fetch data from API
   useEffect(() => {
@@ -116,11 +156,22 @@ const AIMCATDashboard = () => {
         setLoading(true);
 
         // Using a CORS proxy to fetch the data
+
         const proxyUrl = 'https://api.allorigins.win/raw?url=';
-        const usedIdcardno =
-          idcardno && idcardno.trim() !== ''
-            ? idcardno.trim()
-            : defaultIdcardno;
+        let usedIdcardno;
+        if (idcardno && idcardno.trim() !== '') {
+          const encoded = encodeString(idcardno.trim());
+          if (!encoded) {
+            setError(
+              'Invalid ID Card Number: contains unsupported characters.'
+            );
+            setLoading(false);
+            return;
+          }
+          usedIdcardno = encoded;
+        } else {
+          usedIdcardno = defaultIdcardno;
+        }
         const targetUrl = `https://www.time4education.com/results/CenterSectionAnalysis_student.asp?idcardno=${usedIdcardno}`;
 
         const response = await fetch(proxyUrl + encodeURIComponent(targetUrl));
@@ -223,10 +274,15 @@ const AIMCATDashboard = () => {
           <h1 className='text-4xl font-bold text-gray-800 mb-2'>
             AIMCAT Performance Dashboard
           </h1>
+          {/* Roll Number Display */}
+          <div className='mb-2 text-lg font-bold text-indigo-700'>
+            Roll Number:&nbsp;
+            {idcardno.trim() === '' ? 'DRCAB5A329' : idcardno}
+          </div>
           <p className='text-gray-600'>
             Section-wise Performance Comparison Across AIMCATs
           </p>
-          {/* ID Card Input */}
+          {/* ID Card and Prefix Input with Common Submit Button */}
           <div className='mt-4 flex flex-col items-center'>
             <label
               htmlFor='idcardno'
@@ -237,13 +293,40 @@ const AIMCATDashboard = () => {
             <input
               id='idcardno'
               type='text'
-              value={idcardno}
-              onChange={(e) => setIdcardno(e.target.value)}
+              value={idcardnoInput}
+              onChange={(e) => setIdcardnoInput(e.target.value.toUpperCase())}
               placeholder='Leave blank for demo data'
               className='border border-gray-300 rounded px-3 py-2 w-64 focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-2'
             />
+            <label
+              htmlFor='prefix'
+              className='mb-2 text-gray-700 font-medium mt-2'
+            >
+              Enter Prefix (optional):
+            </label>
+            <input
+              id='prefix'
+              type='text'
+              value={prefixInput}
+              onChange={(e) => setPrefixInput(e.target.value.toUpperCase())}
+              placeholder='Default: 595948'
+              className='border border-gray-300 rounded px-3 py-2 w-64 focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-2'
+            />
+            <button
+              className='mt-2 px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-2'
+              onClick={() => {
+                setIdcardno(idcardnoInput.toUpperCase());
+                setPrefix(
+                  prefixInput.trim() !== ''
+                    ? prefixInput.toUpperCase()
+                    : '595948'
+                );
+              }}
+            >
+              Submit
+            </button>
             <span className='text-xs text-gray-500'>
-              If left blank, demo data will be shown.
+              If left blank, demo data and default prefix will be used.
             </span>
           </div>
           {error && (
