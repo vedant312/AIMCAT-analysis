@@ -8,14 +8,35 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
-  BarChart,
-  Bar,
 } from 'recharts';
 import { TrendingUp, BookOpen, Target, Award } from 'lucide-react';
 import './App.css';
 
 const AIMCATDashboard = () => {
+  // Section-wise strengths & weaknesses analysis
   const [data, setData] = useState([]);
+  const getSectionStats = () => {
+    if (data.length === 0) return null;
+    const sections = [
+      { key: 'sectionI', label: 'VARC' },
+      { key: 'sectionII', label: 'DILR' },
+      { key: 'sectionIII', label: 'Quant' },
+    ];
+    const stats = sections.map((section) => {
+      const percentiles = data.map((d) => d[section.key].percentile);
+      const avg = percentiles.reduce((a, b) => a + b, 0) / percentiles.length;
+      const max = Math.max(...percentiles);
+      const min = Math.min(...percentiles);
+      return { ...section, avg, max, min };
+    });
+    // Find strongest and weakest section by avg percentile
+    const strongest = stats.reduce((a, b) => (a.avg > b.avg ? a : b));
+    const weakest = stats.reduce((a, b) => (a.avg < b.avg ? a : b));
+    return { stats, strongest, weakest };
+  };
+
+  const sectionStats = getSectionStats();
+
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -76,9 +97,17 @@ const AIMCATDashboard = () => {
     });
 
     // Sort by test number
-    //remove first element
-    return parsedData.sort((a, b) => a.testNumber - b.testNumber).slice(1);
+    //remove first element and last 3 elements
+    const sorted = parsedData.sort((a, b) => a.testNumber - b.testNumber);
+    return sorted.slice(1, sorted.length - 4);
   };
+
+  // State for idcardno input
+  const [idcardno, setIdcardno] = useState('');
+
+  // Default idcardno value
+  const defaultIdcardno =
+    '575b482b575b483d575b482c575b482e575b482d575b485a575b482e575b485c575b485d575b4856575b48';
 
   // Fetch data from API
   useEffect(() => {
@@ -88,8 +117,11 @@ const AIMCATDashboard = () => {
 
         // Using a CORS proxy to fetch the data
         const proxyUrl = 'https://api.allorigins.win/raw?url=';
-        const targetUrl =
-          'https://www.time4education.com/results/CenterSectionAnalysis_student.asp?idcardno=575b482b575b483d575b482c575b482e575b482d575b485a575b482e575b485c575b485d575b4856575b48';
+        const usedIdcardno =
+          idcardno && idcardno.trim() !== ''
+            ? idcardno.trim()
+            : defaultIdcardno;
+        const targetUrl = `https://www.time4education.com/results/CenterSectionAnalysis_student.asp?idcardno=${usedIdcardno}`;
 
         const response = await fetch(proxyUrl + encodeURIComponent(targetUrl));
 
@@ -117,7 +149,7 @@ const AIMCATDashboard = () => {
     };
 
     fetchData();
-  }, []);
+  }, [idcardno]);
 
   // Calculate statistics
   const calculateStats = () => {
@@ -194,6 +226,26 @@ const AIMCATDashboard = () => {
           <p className='text-gray-600'>
             Section-wise Performance Comparison Across AIMCATs
           </p>
+          {/* ID Card Input */}
+          <div className='mt-4 flex flex-col items-center'>
+            <label
+              htmlFor='idcardno'
+              className='mb-2 text-gray-700 font-medium'
+            >
+              Enter your ID Card Number:
+            </label>
+            <input
+              id='idcardno'
+              type='text'
+              value={idcardno}
+              onChange={(e) => setIdcardno(e.target.value)}
+              placeholder='Leave blank for demo data'
+              className='border border-gray-300 rounded px-3 py-2 w-64 focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-2'
+            />
+            <span className='text-xs text-gray-500'>
+              If left blank, demo data will be shown.
+            </span>
+          </div>
           {error && (
             <div className='mt-4 p-3 bg-yellow-100 border border-yellow-400 text-yellow-700 rounded-lg'>
               {error}
@@ -217,7 +269,6 @@ const AIMCATDashboard = () => {
                 </div>
               </div>
             </div>
-
             <div className='bg-white rounded-lg shadow-lg p-6 border-l-4 border-green-500'>
               <div className='flex items-center'>
                 <Award className='h-8 w-8 text-green-500' />
@@ -231,7 +282,6 @@ const AIMCATDashboard = () => {
                 </div>
               </div>
             </div>
-
             <div className='bg-white rounded-lg shadow-lg p-6 border-l-4 border-red-500'>
               <div className='flex items-center'>
                 <Target className='h-8 w-8 text-red-500' />
@@ -245,7 +295,6 @@ const AIMCATDashboard = () => {
                 </div>
               </div>
             </div>
-
             <div className='bg-white rounded-lg shadow-lg p-6 border-l-4 border-purple-500'>
               <div className='flex items-center'>
                 <BookOpen className='h-8 w-8 text-purple-500' />
@@ -258,6 +307,55 @@ const AIMCATDashboard = () => {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        )}
+
+        {/* Section-wise Strengths & Weaknesses */}
+        {sectionStats && (
+          <div className='bg-white rounded-lg shadow-lg p-6 mb-8'>
+            <h2 className='text-xl font-bold text-gray-800 mb-4'>
+              Section-wise Strengths & Weaknesses
+            </h2>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+              {sectionStats.stats.map((section) => (
+                <div
+                  key={section.label}
+                  className={`rounded-lg p-4 border-l-4 ${
+                    section.label === sectionStats.strongest.label
+                      ? 'border-green-500 bg-green-50'
+                      : section.label === sectionStats.weakest.label
+                      ? 'border-red-500 bg-red-50'
+                      : 'border-gray-300 bg-white'
+                  }`}
+                >
+                  <h3 className='text-lg font-semibold mb-2'>
+                    {section.label}
+                  </h3>
+                  <p className='text-sm text-gray-600'>
+                    Avg Percentile:{' '}
+                    <span className='font-bold'>{section.avg.toFixed(1)}</span>
+                  </p>
+                  <p className='text-sm text-gray-600'>
+                    Best Percentile:{' '}
+                    <span className='font-bold'>{section.max}</span>
+                  </p>
+                  <p className='text-sm text-gray-600'>
+                    Lowest Percentile:{' '}
+                    <span className='font-bold'>{section.min}</span>
+                  </p>
+                  {section.label === sectionStats.strongest.label && (
+                    <p className='text-green-700 font-bold mt-2'>
+                      Strongest Section
+                    </p>
+                  )}
+                  {section.label === sectionStats.weakest.label && (
+                    <p className='text-red-700 font-bold mt-2'>
+                      Weakest Section
+                    </p>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
         )}
@@ -328,7 +426,12 @@ const AIMCATDashboard = () => {
                   formatter={(value, name) => [`${value}%`, name]}
                   labelFormatter={(label) => `AIMCAT ${label}`}
                   itemSorter={(item) => {
-                    const order = ['Total Accuracy', 'VARC Accuracy', 'DILR Accuracy', 'Quant Accuracy'];
+                    const order = [
+                      'Total Accuracy',
+                      'VARC Accuracy',
+                      'DILR Accuracy',
+                      'Quant Accuracy',
+                    ];
                     return order.indexOf(item.name);
                   }}
                 />
