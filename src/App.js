@@ -112,6 +112,44 @@ const AIMCATDashboard = () => {
   const defaultIdcardno =
     '575b482b575b483d575b482c575b482e575b482d575b485a575b482e575b485c575b485d575b4856575b48';
 
+  const defaultTestno = '5956485D595648595956485F59564858595648';
+
+  const defaultFl = '5956485E595648';
+
+  const [extraData, setExtraData] = useState(null);
+
+  const [extraName, setExtraName] = useState('');
+
+  // Function to fetch extra API data
+  const fetchExtraData = async (usedIdcardno) => {
+    try {
+      const proxyUrl = 'https://api.allorigins.win/raw?url=';
+      const targetUrl = `https://www.time4education.com/moodle/aimcatresults/aimcat_performance.asp?testno=${defaultTestno}&idcardno=${usedIdcardno}&fl=${defaultFl}`;
+      const response = await fetch(proxyUrl + encodeURIComponent(targetUrl));
+      if (!response.ok) throw new Error('Extra API error');
+      const htmlText = await response.text();
+
+      // Extract name from <th class="th-last">
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(htmlText, 'text/html');
+      const th = doc.querySelector('th.th-last');
+      let extractedName = '';
+      if (th) {
+        // Example innerHTML: "Id : DRCAB5A329 &nbsp;&nbsp;<br> Name : VEDANT DANGI &nbsp;&nbsp;AIMCAT2607"
+        const nameMatch = th.innerHTML.match(/Name\s*:\s*([A-Z\s]+)&nbsp;/i);
+        if (nameMatch && nameMatch[1]) {
+          extractedName = nameMatch[1].trim();
+        }
+      }
+      setExtraName(extractedName);
+
+      const table = doc.querySelector('table');
+      return table ? table.outerHTML : '<div>No extra data found.</div>';
+    } catch (err) {
+      return `<div>Error loading extra data.</div>`;
+    }
+  };
+
   // Encode string function (JS version)
   function encodeString(inputString) {
     const charMappings = {
@@ -186,6 +224,10 @@ const AIMCATDashboard = () => {
 
         setData(parsedData);
         setError(null);
+
+        // Fetch extra API data
+        const extra = await fetchExtraData(usedIdcardno);
+        setExtraData(extra);
       } catch (err) {
         console.error('Error fetching data:', err);
         setError('Failed to fetch data. Using sample data for demonstration.');
@@ -200,7 +242,7 @@ const AIMCATDashboard = () => {
     };
 
     fetchData();
-  }, [idcardno]);
+  }, [idcardno, prefix]);
 
   // Calculate statistics
   const calculateStats = () => {
@@ -279,6 +321,11 @@ const AIMCATDashboard = () => {
             Roll Number:&nbsp;
             {idcardno.trim() === '' ? 'DRCAB5A329' : idcardno}
           </div>
+          {extraName && (
+            <div className='mb-2 text-lg font-bold text-green-700'>
+              Name: {extraName}
+            </div>
+          )}
           <p className='text-gray-600'>
             Section-wise Performance Comparison Across AIMCATs
           </p>
