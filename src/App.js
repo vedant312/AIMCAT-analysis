@@ -10,9 +10,10 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 import { TrendingUp, BookOpen, Target, Award } from 'lucide-react';
+import PaperAnalysis from './Paper';
 import './App.css';
 
-const AIMCATDashboard = () => {
+const AIMCATDashboard = ({ navigate }) => {
   // Section-wise strengths & weaknesses analysis
   const [data, setData] = useState([]);
   const getSectionStats = () => {
@@ -326,6 +327,12 @@ const AIMCATDashboard = () => {
               Name: {extraName}
             </div>
           )}
+          <button
+            onClick={() => navigate('analysis')}
+            className='w-full py-3 px-6 bg-indigo-500 hover:bg-indigo-700 text-white font-bold rounded-xl shadow-lg transition duration-300 transform hover:scale-[1.01]'
+          >
+            Go to Aggregated Paper Analysis
+          </button>
           <p className='text-gray-600'>
             Section-wise Performance Comparison Across AIMCATs
           </p>
@@ -671,8 +678,22 @@ const AIMCATDashboard = () => {
   );
 };
 
+// 5. Main App Component
 function App() {
-  return <AIMCATDashboard />;
+  const [page, setPage] = useState('dashboard'); // 'dashboard' or 'analysis'
+
+  const navigate = (targetPage) => setPage(targetPage);
+
+  return (
+    <div className='font-sans antialiased min-h-screen bg-gray-50'>
+      {/* The main content */}
+      {page === 'dashboard' ? (
+        <AIMCATDashboard navigate={navigate} />
+      ) : (
+        <PaperAnalysis navigate={navigate} />
+      )}
+    </div>
+  );
 }
 
 export default App;
