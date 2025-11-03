@@ -30,7 +30,6 @@ function Question({
     QA: '3',
   };
   const sectionNumber = sectionNumberMap[activeSection] || '0'; // Map section to number
-  console.log('questionData in Question.js:', questionData.qKey);
   const questionNumber = questionData.qKey.replace('qu', ''); // Assuming index is passed in questionData
 
   // Adapt to new data structure
@@ -72,7 +71,6 @@ function Question({
   };
 
   const { icon: Icon, color, bg, label } = statusMap[status];
-  console.log('essay details:', essay, "is essay !== '", essay !== ' ');
 
   return (
     <div className='question-container'>

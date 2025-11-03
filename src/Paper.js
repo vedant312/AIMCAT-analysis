@@ -5,6 +5,7 @@ import varc_paper from './paper/varc_papers.json';
 import dilr_paper from './paper/dilr_papers.json';
 import qa_paper from './paper/qa_papers.json';
 import vedant_response from './vedant_response.json';
+import rajat_response from './rajat_response.json';
 import answer_key from './answer/answer_key.json';
 import Question from './Question';
 
@@ -16,8 +17,9 @@ const PAPER_CONTENT_MAP = {
 
 const ANSWER_KEY_CONTENT = answer_key;
 const VEDANT_RESPONSE_CONTENT = vedant_response;
+const RAJAT_RESPONSE_CONTENT = rajat_response;
 
-const combineAllDataForSection = (section) => {
+const combineAllDataForSection = (section, activeUser) => {
   const allQuestions = [];
   const paperTests = PAPER_CONTENT_MAP[section] || {};
 
@@ -29,23 +31,17 @@ const combineAllDataForSection = (section) => {
 
       // Look up answers and responses in their separate simulated JSON files
       const answers = ANSWER_KEY_CONTENT[paperKey] || {};
-      const responses = VEDANT_RESPONSE_CONTENT[paperKey] || {};
-      console.log(
-        'Processing Paper:',
-        paperKey,
-        'with',
-        Object.keys(questions).length,
-        'questions.'
-      );
-      console.log('Answers found for', answers, 'questions.');
-      console.log('Responses found for', responses, 'questions.');
+      const responses =
+        activeUser === 'VEDANT'
+          ? VEDANT_RESPONSE_CONTENT[paperKey] || {}
+          : RAJAT_RESPONSE_CONTENT[paperKey] || {};
 
       // Iterate through each question in the paper
       for (const qKey in questions) {
         if (questions.hasOwnProperty(qKey)) {
           const paper = questions[qKey];
-          const correct = answers[qKey].toLowerCase() || '';
-          const userResponse = responses[qKey].toLowerCase() || '';
+          const correct = answers[qKey]?.toLowerCase() || '';
+          const userResponse = responses[qKey]?.toLowerCase() || '';
 
           let status;
           if (userResponse !== correct && userResponse !== 'n') {
@@ -80,16 +76,10 @@ const combineAllDataForSection = (section) => {
       }
     }
   }
-  console.log(
-    'Combined',
-    allQuestions.length,
-    'questions for section',
-    allQuestions
-  );
   return allQuestions;
 };
 
-const SectionTab = ({ section }) => {
+const SectionTab = ({ section, activeUser }) => {
   const [filter, setFilter] = useState('ALL'); // 'ALL', 'CORRECT', 'SKIPPED', 'WRONG'
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
@@ -99,11 +89,11 @@ const SectionTab = ({ section }) => {
   useEffect(() => {
     setIsLoading(true);
     // In a real app, this would be an API call or file load
-    const combined = combineAllDataForSection(section);
+    const combined = combineAllDataForSection(section, activeUser);
     setQuestions(combined);
     setCurrentQuestionIndex(0);
     setIsLoading(false);
-  }, [section]);
+  }, [section, activeUser]);
 
   // Filtered questions are memoized for performance
   const filteredQuestions = useMemo(() => {
@@ -220,6 +210,7 @@ const SectionTab = ({ section }) => {
 // 4. Paper Analysis Component (Main route for analysis)
 const PaperAnalysis = ({ navigate }) => {
   const [activeTab, setActiveTab] = useState('VARC'); // VARC, DILR, QA
+  const [activeUser, setActiveUser] = useState('VEDANT'); // VEDANT, RAJAT
 
   return (
     <div className='p-6 md:p-10 bg-gray-50 min-h-screen'>
@@ -227,6 +218,26 @@ const PaperAnalysis = ({ navigate }) => {
         <h1 className='text-3xl md:text-4xl font-extrabold text-gray-900'>
           Aggregated Paper Analysis
         </h1>
+        <button
+          onClick={() => {
+            setActiveUser('VEDANT');
+          }}
+          className={`py-2 px-4 bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold rounded-lg shadow-md transition duration-300 mr-4 ${
+            activeUser === 'VEDANT' ? 'active-button' : ''
+          }`}
+        >
+          Vedant
+        </button>
+        <button
+          onClick={() => {
+            setActiveUser('RAJAT');
+          }}
+          className={`py-2 px-4 bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold rounded-lg shadow-md transition duration-300 mr-4 ${
+            activeUser === 'RAJAT' ? 'active-button' : ''
+          }`}
+        >
+          Rajat
+        </button>
         <button
           onClick={() => navigate('dashboard')}
           className='py-2 px-4 bg-indigo-500 hover:bg-indigo-600 text-white text-sm font-semibold rounded-lg shadow-md transition duration-300'
@@ -260,7 +271,11 @@ const PaperAnalysis = ({ navigate }) => {
       {/* Tab Content */}
       <div className='bg-white p-4 rounded-xl shadow-2xl'>
         {/* Key prop ensures the component re-renders when the tab changes */}
-        <SectionTab key={activeTab} section={activeTab} />
+        <SectionTab
+          key={activeTab}
+          section={activeTab}
+          activeUser={activeUser}
+        />
       </div>
     </div>
   );
