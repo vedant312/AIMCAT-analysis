@@ -258,25 +258,41 @@ const SectionTab = ({
     <div className='p-4'>
       <div className='flex flex-wrap gap-3 mb-6 p-3 bg-white rounded-xl shadow-inner border'>
         <button
-          onClick={() => setFilter('ALL')}
+          onClick={() => {
+            setFilter('ALL');
+            setCurrentQuestionIndex(0);
+            setSubsectionFilter('ALL'); // <--- ADDED RESET
+          }}
           className={filterButtonClass('ALL')}
         >
           All ({questions.length})
         </button>
         <button
-          onClick={() => setFilter('CORRECT')}
+          onClick={() => {
+            setFilter('CORRECT');
+            setCurrentQuestionIndex(0);
+            setSubsectionFilter('ALL'); // <--- ADDED RESET
+          }}
           className={filterButtonClass('CORRECT')}
         >
           Correct ({statusCounts.CORRECT || 0})
         </button>
         <button
-          onClick={() => setFilter('WRONG')}
+          onClick={() => {
+            setFilter('WRONG');
+            setCurrentQuestionIndex(0);
+            setSubsectionFilter('ALL'); // <--- ADDED RESET
+          }}
           className={filterButtonClass('WRONG')}
         >
           Wrong ({statusCounts.WRONG || 0})
         </button>
         <button
-          onClick={() => setFilter('SKIPPED')}
+          onClick={() => {
+            setFilter('SKIPPED');
+            setCurrentQuestionIndex(0);
+            setSubsectionFilter('ALL'); // <--- ADDED RESET
+          }}
           className={filterButtonClass('SKIPPED')}
         >
           Skipped ({statusCounts.SKIPPED || 0})
