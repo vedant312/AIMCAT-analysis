@@ -680,18 +680,10 @@ const AIMCATDashboard = ({ navigate }) => {
 
 // 5. Main App Component
 function App() {
-  const [page, setPage] = useState('dashboard'); // 'dashboard' or 'analysis'
-
-  const navigate = (targetPage) => setPage(targetPage);
 
   return (
     <div className='font-sans antialiased min-h-screen bg-gray-50'>
-      {/* The main content */}
-      {page === 'dashboard' ? (
-        <AIMCATDashboard navigate={navigate} />
-      ) : (
-        <PaperAnalysis navigate={navigate} />
-      )}
+        <PaperAnalysis />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './styles.css';
-import { CheckCircle, XCircle, MinusCircle, Eye, EyeOff } from 'lucide-react';
+import { CheckCircle, XCircle, MinusCircle } from 'lucide-react';
 
 // Helper function to clean up HTML strings
 const cleanHtmlString = (htmlString) => {
@@ -22,7 +22,6 @@ const solutionUrl = (testNumber, questionNumber, sectionNumber) => {
 function Question({
   activeSection,
   questionData,
-  initialShowSolution,
 }) {
   const sectionNumberMap = {
     VARC: '1',
@@ -44,7 +43,7 @@ function Question({
   } = questionData;
 
   const [showAnswer, setShowAnswer] = useState(false);
-  const [showSolution, setShowSolution] = useState(initialShowSolution);
+  const [showSolution, setShowSolution] = useState(false);
 
   // For FILLN, user types a number; for MCQ, show options
   const isFillType = pattern === 'FILLN' || options.length === 0;
