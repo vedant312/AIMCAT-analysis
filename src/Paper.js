@@ -20,7 +20,7 @@ const VEDANT_RESPONSE_CONTENT = vedant_response;
 const RAJAT_RESPONSE_CONTENT = rajat_response;
 const QUESTION_TYPE_DATA = questions_type_data;
 
-const combineAllDataForSection = (section, activeUser, otherResponses) => {
+const combineAllDataForSection = (section, activeUser) => {
   const allQuestions = [];
   const paperTests = PAPER_CONTENT_MAP[section] || {};
 
@@ -39,8 +39,6 @@ const combineAllDataForSection = (section, activeUser, otherResponses) => {
         responses = VEDANT_RESPONSE_CONTENT[paperKey] || {};
       } else if (activeUser === 'RAJAT') {
         responses = RAJAT_RESPONSE_CONTENT[paperKey] || {};
-      } else if (activeUser === 'OTHER') {
-        responses = otherResponses[paperKey] || {};
       }
 
       // --- START: NEW EXCLUSION LOGIC ---
@@ -110,8 +108,6 @@ const combineAllDataForSection = (section, activeUser, otherResponses) => {
 const SectionTab = ({
   section,
   activeUser,
-  otherUserResponses,
-  isFetchingOtherData,
 }) => {
   const [filter, setFilter] = useState('ALL'); // 'ALL', 'CORRECT', 'SKIPPED', 'WRONG'
   const [subsectionFilter, setSubsectionFilter] = useState('ALL');
@@ -121,19 +117,17 @@ const SectionTab = ({
 
   // Data fetching and processing happens only when the component mounts or section changes
   useEffect(() => {
-    if (isFetchingOtherData) return; // Don't process while fetching
 
     setIsLoading(true);
     // Pass the otherUserResponses to the combiner
     const combined = combineAllDataForSection(
       section,
-      activeUser,
-      otherUserResponses
+      activeUser
     );
     setQuestions(combined);
     setCurrentQuestionIndex(0);
     setIsLoading(false);
-  }, [section, activeUser, otherUserResponses, isFetchingOtherData]); // Added dependencies
+  }, [section, activeUser]); // Added dependencies
 
   // NEW: Calculate unique subsections and their counts based on the current status filter
   const subsectionsData = useMemo(() => {
@@ -185,33 +179,6 @@ const SectionTab = ({
     // 3. Sort by TNO descending
     return filtered.sort((a, b) => b.tno - a.tno);
   }, [questions, filter, subsectionFilter]);
-
-  // Handle loading state for fetch
-  if (isFetchingOtherData) {
-    return (
-      <div className='text-center p-8 text-indigo-600 font-semibold'>
-        <svg
-          className='animate-spin h-5 w-5 mr-3 inline text-indigo-500'
-          viewBox='0 0 24 24'
-        >
-          <circle
-            className='opacity-25'
-            cx='12'
-            cy='12'
-            r='10'
-            stroke='currentColor'
-            strokeWidth='4'
-          ></circle>
-          <path
-            className='opacity-75'
-            fill='currentColor'
-            d='M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z'
-          ></path>
-        </svg>
-        Fetching aggregated analysis for custom ID...
-      </div>
-    );
-  }
 
   // Navigation Handlers
   const handleNext = () => {
@@ -363,111 +330,13 @@ const SectionTab = ({
   );
 };
 
-const mockFetchUserResponse = async (idCard) => {
-  // 1. Configuration (Matching Python script's intent)
-  const base_url_template = `https://www.time4education.com/moodle/aimcatsolutions/get_ansstr.asp?tno={number}&area={section}&id=${idCard}`;
-  const start_number = 2625;
-  const end_number = 2623; // Limiting for demo
-  const sections = ['VARC', 'DILR', 'QA'];
-  const all_responses = {};
-  const delay = 100; // Simulate network latency
-
-  const fetchPromises = [];
-
-  // 2. Iterate and (Simulate) Fetch
-  for (let num = start_number; num >= end_number; num--) {
-    for (const section of sections) {
-      const paperKey = `${num}_${section}`;
-
-      // --- SIMULATED RESPONSE LOGIC ---
-      // We use setTimeout and resolve a mock response instead of 'fetch'ing a real URL.
-      const fetchPromise = (async () => {
-        const url = base_url_template
-          .replace('{number}', num)
-          .replace('{section}', section);
-
-        try {
-          // 1. Make the real network request
-          const response = await fetch(url, {
-            signal: AbortSignal.timeout(5000),
-          }); // 5 second timeout
-
-          if (!response.ok) {
-            console.warn(`Fetch failed for ${paperKey}: ${response.status}`);
-            return {};
-          }
-
-          // 2. Get the raw text response
-          const raw_ans_string = (await response.text()).trim();
-
-          // 3. Process the response string (the Python logic)
-          if (raw_ans_string) {
-            const answers_list = raw_ans_string.split(';').filter((a) => a);
-
-            if (answers_list.length > 0) {
-              const structured_answers = {};
-              for (let i = 0; i < answers_list.length; i++) {
-                structured_answers[`Q${i + 1}`] = answers_list[i].trim();
-                // Handle DILR key S1Q1 if needed, as in the mock
-                if (section === 'DILR' && i === 0) {
-                  structured_answers[`S1Q1`] = answers_list[i].trim();
-                  delete structured_answers[`Q${i + 1}`];
-                }
-              }
-              return { [paperKey]: structured_answers };
-            }
-          }
-          return {};
-        } catch (e) {
-          console.error(`Request error for ${paperKey}:`, e);
-          return {};
-        }
-      })();
-      fetchPromises.push(fetchPromise);
-    }
-  }
-
-  // Await all simulated fetch results
-  const results = await Promise.all(fetchPromises);
-
-  // Aggregate results into the final dictionary
-  results.forEach((result) => Object.assign(all_responses, result));
-
-  return all_responses;
-};
 
 // 4. Paper Analysis Component (Main route for analysis)
 const PaperAnalysis = () => {
   const [activeTab, setActiveTab] = useState('VARC'); // VARC, DILR, QA
   const [activeUser, setActiveUser] = useState('VEDANT'); // VEDANT, RAJAT
-  const [idcardno, setIdcardno] = useState('');
-  const [idcardnoInput, setIdcardnoInput] = useState('');
-  const [otherUserResponses, setOtherUserResponses] = useState({});
-  const [isFetchingOtherData, setIsFetchingOtherData] = useState(false);
 
-  const isOtherActive = activeUser === 'OTHER';
 
-  // Handler to fetch and set custom user data
-  const handleSubmitIdCard = async () => {
-    const fetchId = idcardnoInput.toUpperCase() || 'DRCAB5A329'; // Default mock ID
-
-    // Reset analysis when switching to a new ID
-    setIdcardno(fetchId);
-    setOtherUserResponses({});
-
-    setIsFetchingOtherData(true);
-
-    try {
-      const responses = await mockFetchUserResponse(fetchId);
-      setOtherUserResponses(responses);
-    } catch (e) {
-      console.error('Failed to fetch custom user data:', e);
-      setOtherUserResponses({}); // Clear responses on failure
-    } finally {
-      setIsFetchingOtherData(false);
-      setActiveUser('OTHER'); // Ensure tab stays on OTHER
-    }
-  };
 
   // Tailwind CSS classes for aesthetics
   const buttonBase =
@@ -503,57 +372,9 @@ const PaperAnalysis = () => {
           >
             Rajat
           </button>
-          <button
-            onClick={() => {
-              setActiveUser('OTHER');
-              // Ensure the view is updated even if no fetch happens immediately
-              if (idcardno) setOtherUserResponses({});
-            }}
-            className={`${buttonBase} ${
-              isOtherActive
-                ? 'bg-red-600 text-white shadow-red-400'
-                : 'bg-white text-red-600 border border-red-400 hover:bg-red-50'
-            }`}
-          >
-            Custom ID
-          </button>
         </div>
       </div>
 
-      {/* Other User Input Area */}
-      {isOtherActive && (
-        <div className='mt-4 mb-6 p-4 bg-white rounded-xl shadow-lg border border-red-200'>
-          <label
-            htmlFor='idcardno'
-            className='mb-2 text-gray-700 font-medium block'
-          >
-            Enter your ID Card Number:
-          </label>
-          <div className='flex gap-3'>
-            <input
-              id='idcardno'
-              type='text'
-              value={idcardnoInput}
-              onChange={(e) => setIdcardnoInput(e.target.value.toUpperCase())}
-              placeholder='ID Card Number (e.g., DRCAB5A283)'
-              className='border border-gray-300 rounded px-3 py-2 flex-grow focus:outline-none focus:ring-2 focus:ring-red-500'
-              disabled={isFetchingOtherData}
-            />
-            <button
-              className='px-6 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 shadow-md disabled:bg-red-300'
-              onClick={handleSubmitIdCard}
-              disabled={isFetchingOtherData}
-            >
-              {isFetchingOtherData ? 'Loading...' : 'Fetch & Analyze'}
-            </button>
-          </div>
-          {idcardno && (
-            <p className='mt-3 text-sm text-red-700 font-medium'>
-              Current Custom ID: {idcardno}
-            </p>
-          )}
-        </div>
-      )}
 
       {/* Tabs Navigation */}
       <div className='flex border-b border-gray-200 mb-18 bg-gray-50 z-10 shadow-sm rounded-t-xl'>
@@ -576,11 +397,9 @@ const PaperAnalysis = () => {
       <div className='bg-white p-4 rounded-b-xl shadow-2xl'>
         {/* Key prop ensures the component re-renders when the user, idcard, or tab changes */}
         <SectionTab
-          key={`${activeTab}-${activeUser}-${idcardno}`}
+          key={`${activeTab}-${activeUser}`}
           section={activeTab}
           activeUser={activeUser}
-          otherUserResponses={otherUserResponses}
-          isFetchingOtherData={isFetchingOtherData}
         />
       </div>
     </div>
