@@ -294,6 +294,13 @@ h1 {
   margin-bottom: 20px;
   font-size: 1.1em;
   line-height: 1.6;
+  width: 100%;
+}
+
+.metadata-text{
+  float: right;
+  font-size: 1em;
+  color: #d3092e;
 }
 
 .options-container .option {

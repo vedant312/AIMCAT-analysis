@@ -1,0 +1,6082 @@
+{
+  "2624_VARC": {
+    "qu1": {
+      "subsection": "Odd One Out",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "Para Formation",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Odd One Out",
+      "difficulty": "VD"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Further Application",
+      "difficulty": "VD"
+    },
+    "qu12": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Para Formation",
+      "difficulty": "VD"
+    },
+    "qu15": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Para Summary",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "CR Advanced",
+      "difficulty": "VD"
+    },
+    "qu22": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu23": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu24": {
+      "subsection": "Sentence Position",
+      "difficulty": "E"
+    }
+  },
+  "2624_DILR": {
+    "qu1": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Bar Chart",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Bar Chart",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Bar Chart",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Bar Chart",
+      "difficulty": "E"
+    },
+    "qu19": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Table",
+      "difficulty": "M"
+    }
+  },
+  "2624_QA": {
+    "qu1": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Maxima/Minima",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Progressions",
+      "difficulty": "E"
+    },
+    "qu5": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Time & Work",
+      "difficulty": "E"
+    },
+    "qu8": {
+      "subsection": "P&C",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Inequalities",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Indices & Surds",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu14": {
+      "subsection": "Functions",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Special Equations",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "AMA",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Geo&Men",
+      "difficulty": "E"
+    },
+    "qu19": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "PPL",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Simple Equations",
+      "difficulty": "M"
+    }
+  },
+  "2623_VARC": {
+    "qu1": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "CR Advanced",
+      "difficulty": "VD"
+    },
+    "qu3": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Example Specific",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "Further Application",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Example Specific",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Further Application",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Theme Based",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Odd One Out",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu23": {
+      "subsection": "Odd One Out",
+      "difficulty": "VD"
+    },
+    "qu24": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    }
+  },
+  "2623_DILR": {
+    "qu1": {
+      "subsection": "Line Chart",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Line Chart",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Line Chart",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Line Chart",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Scatter Chart",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Scatter Chart",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Scatter Chart",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "Scatter Chart",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Scatter Chart",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Networks and Routes",
+      "difficulty": "E"
+    },
+    "qu20": {
+      "subsection": "Networks and Routes",
+      "difficulty": "E"
+    },
+    "qu21": {
+      "subsection": "Networks and Routes",
+      "difficulty": "E"
+    },
+    "qu22": {
+      "subsection": "Networks and Routes",
+      "difficulty": "M"
+    }
+  },
+  "2623_QA": {
+    "qu1": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Special Equations",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "RPV",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "PPL",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Functions",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Functions",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "P&C",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "SI/CI",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Time & Work",
+      "difficulty": "E"
+    },
+    "qu16": {
+      "subsection": "Logs",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "P&C",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "AMA",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "PPL",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Number Systems",
+      "difficulty": "M"
+    }
+  },
+  "2622_VARC": {
+    "qu1": {
+      "subsection": "Literary Device",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Theme Based",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Odd One Out",
+      "difficulty": "VD"
+    },
+    "qu7": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Example Specific",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Sentence Position",
+      "difficulty": "E"
+    },
+    "qu23": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    },
+    "qu24": {
+      "subsection": "Para Summary",
+      "difficulty": "M"
+    }
+  },
+  "2622_DILR": {
+    "qu1": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Pie Chart",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Pie Chart",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Pie Chart",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Pie Chart",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "VD"
+    },
+    "qu11": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "VD"
+    },
+    "qu12": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "VD"
+    },
+    "qu13": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "VD"
+    },
+    "qu14": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "VD"
+    },
+    "qu15": {
+      "subsection": "Distribution",
+      "difficulty": "E"
+    },
+    "qu16": {
+      "subsection": "Distribution",
+      "difficulty": "E"
+    },
+    "qu17": {
+      "subsection": "Distribution",
+      "difficulty": "E"
+    },
+    "qu18": {
+      "subsection": "Distribution",
+      "difficulty": "E"
+    },
+    "qu19": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Table",
+      "difficulty": "M"
+    }
+  },
+  "2622_QA": {
+    "qu1": {
+      "subsection": "Simple Equations",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Inequalities",
+      "difficulty": "E"
+    },
+    "qu6": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Number Systems",
+      "difficulty": "E"
+    },
+    "qu8": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "P&C",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Functions",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Progressions",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Maxima/Minima",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Progressions",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Numbers",
+      "difficulty": "E"
+    },
+    "qu18": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Graphs",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Functions",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    }
+  },
+  "2621_VARC": {
+    "qu1": {
+      "subsection": "Theme Based",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Para Formation",
+      "difficulty": "VD"
+    },
+    "qu6": {
+      "subsection": "Odd One Out",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Para Formation",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu10": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Odd One Out",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Para Summary",
+      "difficulty": "VD"
+    },
+    "qu19": {
+      "subsection": "Further Application",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu22": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu23": {
+      "subsection": "Para Summary",
+      "difficulty": "M"
+    },
+    "qu24": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    }
+  },
+  "2621_DILR": {
+    "qu1": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Bar Chart",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Bar Chart",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Bar Chart",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Bar Chart",
+      "difficulty": "VD"
+    },
+    "qu14": {
+      "subsection": "Bar Chart",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Seating Arrangement",
+      "difficulty": "E"
+    },
+    "qu20": {
+      "subsection": "Seating Arrangement",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Seating Arrangement",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Seating Arrangement",
+      "difficulty": "M"
+    }
+  },
+  "2621_QA": {
+    "qu1": {
+      "subsection": "Inequalities",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "AMA",
+      "difficulty": "E"
+    },
+    "qu3": {
+      "subsection": "P&C",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Numbers",
+      "difficulty": "E"
+    },
+    "qu6": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "AMA",
+      "difficulty": "E"
+    },
+    "qu8": {
+      "subsection": "Logs",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Time & Work",
+      "difficulty": "E"
+    },
+    "qu11": {
+      "subsection": "RPV",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Simple Equations",
+      "difficulty": "E"
+    },
+    "qu13": {
+      "subsection": "Indices & Surds",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Graphs",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Indices & Surds",
+      "difficulty": "E"
+    },
+    "qu16": {
+      "subsection": "Cubes",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu18": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Simple Equations",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Progressions",
+      "difficulty": "M"
+    }
+  },
+  "2620_VARC": {
+    "qu1": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Para Summary",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "Example Specific",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Detail Specific",
+      "difficulty": "E"
+    },
+    "qu11": {
+      "subsection": "Sentence Position",
+      "difficulty": "E"
+    },
+    "qu12": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "CR Advanced",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Further Application",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Para Summary",
+      "difficulty": "VD"
+    },
+    "qu17": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Theme Based",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu23": {
+      "subsection": "Odd One Out",
+      "difficulty": "E"
+    },
+    "qu24": {
+      "subsection": "Para Summary",
+      "difficulty": "VD"
+    }
+  },
+  "2620_DILR": {
+    "qu1": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "E"
+    },
+    "qu2": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "E"
+    },
+    "qu3": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "E"
+    },
+    "qu4": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "E"
+    },
+    "qu5": {
+      "subsection": "Bar Chart",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "Bar Chart",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Bar Chart",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Bar Chart",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Selections",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Selections",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Selections",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Selections",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Selections",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "VD"
+    },
+    "qu20": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "VD"
+    },
+    "qu21": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "VD"
+    },
+    "qu22": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    }
+  },
+  "2620_QA": {
+    "qu1": {
+      "subsection": "Progressions",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "P&C",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Inequalities",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "RPV",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Number Systems",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "SI/CI",
+      "difficulty": "E"
+    },
+    "qu11": {
+      "subsection": "P&C",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Simple Equations",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "AMA",
+      "difficulty": "E"
+    },
+    "qu14": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "AMA",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Logs",
+      "difficulty": "E"
+    },
+    "qu19": {
+      "subsection": "RPV",
+      "difficulty": "E"
+    },
+    "qu20": {
+      "subsection": "Indices & Surds",
+      "difficulty": "E"
+    },
+    "qu21": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    }
+  },
+  "2619_VARC": {
+    "qu1": {
+      "subsection": "Purpose Specific",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Detail Based",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "Detail Based",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Vocab Based",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Theme Based",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Theme Based",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Para Formation",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Sentence Position",
+      "difficulty": "VD"
+    },
+    "qu21": {
+      "subsection": "Para Summary",
+      "difficulty": "VD"
+    },
+    "qu22": {
+      "subsection": "Para Formation",
+      "difficulty": "VD"
+    },
+    "qu23": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    },
+    "qu24": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    }
+  },
+  "2619_DILR": {
+    "qu1": {
+      "subsection": "Selections",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Selections",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Selections",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Selections",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Bubble Chart",
+      "difficulty": "E"
+    },
+    "qu6": {
+      "subsection": "Bubble Chart",
+      "difficulty": "E"
+    },
+    "qu7": {
+      "subsection": "Bubble Chart",
+      "difficulty": "E"
+    },
+    "qu8": {
+      "subsection": "Bubble Chart",
+      "difficulty": "E"
+    },
+    "qu9": {
+      "subsection": "Venn Diagram",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Venn Diagram",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Venn Diagram",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Venn Diagram",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Venn Diagram",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    }
+  },
+  "2619_QA": {
+    "qu1": {
+      "subsection": "Inequalities",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "SI/CI",
+      "difficulty": "E"
+    },
+    "qu3": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Simple Equations",
+      "difficulty": "E"
+    },
+    "qu5": {
+      "subsection": "P&C",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "AMA",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "RPV",
+      "difficulty": "E"
+    },
+    "qu10": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Progressions",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Special Equations",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Numbers",
+      "difficulty": "E"
+    },
+    "qu14": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Number Systems",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "RPV",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu19": {
+      "subsection": "Geo&Men",
+      "difficulty": "E"
+    },
+    "qu20": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu22": {
+      "subsection": "Progressions",
+      "difficulty": "M"
+    }
+  },
+  "2618_VARC": {
+    "qu1": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Example Specific",
+      "difficulty": "E"
+    },
+    "qu3": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Further Application",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu7": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu9": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu10": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Para Summary",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Sentence Position",
+      "difficulty": "E"
+    },
+    "qu19": {
+      "subsection": "Literary Device",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Theme Based",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu23": {
+      "subsection": "Para Summary",
+      "difficulty": "M"
+    },
+    "qu24": {
+      "subsection": "Odd One Out",
+      "difficulty": "E"
+    }
+  },
+  "2618_DILR": {
+    "qu1": {
+      "subsection": "Web Chart",
+      "difficulty": "E"
+    },
+    "qu2": {
+      "subsection": "Web Chart",
+      "difficulty": "E"
+    },
+    "qu3": {
+      "subsection": "Web Chart",
+      "difficulty": "E"
+    },
+    "qu4": {
+      "subsection": "Web Chart",
+      "difficulty": "E"
+    },
+    "qu5": {
+      "subsection": "Networks and Routes",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "Networks and Routes",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Networks and Routes",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Line Chart",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Line Chart",
+      "difficulty": "E"
+    },
+    "qu11": {
+      "subsection": "Line Chart",
+      "difficulty": "E"
+    },
+    "qu12": {
+      "subsection": "Line Chart",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "D"
+    }
+  },
+  "2618_QA": {
+    "qu1": {
+      "subsection": "Progressions",
+      "difficulty": "E"
+    },
+    "qu2": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Graphs",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "AMA",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Progressions",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Simple Equations",
+      "difficulty": "E"
+    },
+    "qu8": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Logs",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Time & Distance",
+      "difficulty": "E"
+    },
+    "qu16": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu18": {
+      "subsection": "RPV",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    }
+  },
+  "2617_VARC": {
+    "qu1": {
+      "subsection": "Further Application",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Example Specific",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Para Formation",
+      "difficulty": "VD"
+    },
+    "qu10": {
+      "subsection": "Para Formation",
+      "difficulty": "VD"
+    },
+    "qu11": {
+      "subsection": "Critical Reasoning",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Further Application",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Critical Reasoning",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    },
+    "qu23": {
+      "subsection": "Odd One Out",
+      "difficulty": "VD"
+    },
+    "qu24": {
+      "subsection": "Odd One Out",
+      "difficulty": "VD"
+    }
+  },
+  "2617_DILR": {
+    "qu1": {
+      "subsection": "Networks and Routes",
+      "difficulty": "E"
+    },
+    "qu2": {
+      "subsection": "Networks and Routes",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Networks and Routes",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Cubes",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Cubes",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Cubes",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Cubes",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Stacked Bar",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Stacked Bar",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Stacked Bar",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Stacked Bar",
+      "difficulty": "VD"
+    },
+    "qu18": {
+      "subsection": "Stacked Bar",
+      "difficulty": "VD"
+    },
+    "qu19": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "VD"
+    },
+    "qu20": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "VD"
+    },
+    "qu21": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "VD"
+    },
+    "qu22": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "VD"
+    }
+  },
+  "2617_QA": {
+    "qu1": {
+      "subsection": "Number Systems",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Geo&Men",
+      "difficulty": "E"
+    },
+    "qu4": {
+      "subsection": "Miscellaneous",
+      "difficulty": "E"
+    },
+    "qu5": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "Trigonometry",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Geo&Men",
+      "difficulty": "E"
+    },
+    "qu8": {
+      "subsection": "Graphs",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "SI/CI",
+      "difficulty": "E"
+    },
+    "qu10": {
+      "subsection": "AMA",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "P&C",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "RPV",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Time & Work",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Progressions",
+      "difficulty": "E"
+    },
+    "qu16": {
+      "subsection": "Series",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Miscellaneous",
+      "difficulty": "E"
+    },
+    "qu18": {
+      "subsection": "Probability",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "PPL",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "P&C",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Logs",
+      "difficulty": "M"
+    }
+  },
+  "2616_VARC": {
+    "qu1": {
+      "subsection": "Detail Specific",
+      "difficulty": "VD"
+    },
+    "qu2": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Para Summary",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu7": {
+      "subsection": "Detail Specific",
+      "difficulty": "VD"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu9": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu10": {
+      "subsection": "Odd One Out",
+      "difficulty": "VD"
+    },
+    "qu11": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Further Application",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Para Summary",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Odd One Out",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Sentence Position",
+      "difficulty": "E"
+    },
+    "qu23": {
+      "subsection": "Sentence Position",
+      "difficulty": "E"
+    },
+    "qu24": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    }
+  },
+  "2616_DILR": {
+    "qu1": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Stacked Bar",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Stacked Bar",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Stacked Bar",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Stacked Bar",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Stacked Bar",
+      "difficulty": "D"
+    }
+  },
+  "2616_QA": {
+    "qu1": {
+      "subsection": "Graphs",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "AMA",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Progressions",
+      "difficulty": "E"
+    },
+    "qu6": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Simple Equations",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "Progressions",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Coordinate Geometry",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Numbers",
+      "difficulty": "VD"
+    },
+    "qu11": {
+      "subsection": "Number Systems",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Geo&Men",
+      "difficulty": "VD"
+    },
+    "qu13": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Maxima/Minima",
+      "difficulty": "VD"
+    },
+    "qu15": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu19": {
+      "subsection": "Numbers",
+      "difficulty": "E"
+    },
+    "qu20": {
+      "subsection": "Sets & Relations",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Inequalities",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "AMA",
+      "difficulty": "E"
+    }
+  },
+  "2615_VARC": {
+    "qu1": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Purpose Specific",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "CR Advanced",
+      "difficulty": "VD"
+    },
+    "qu7": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Para Formation + Odd One Out",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Theme Based",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Example Specific",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Para Summary",
+      "difficulty": "VD"
+    },
+    "qu17": {
+      "subsection": "Purpose Specific",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Example Specific",
+      "difficulty": "E"
+    },
+    "qu19": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Para Formation + Odd One Out",
+      "difficulty": "VD"
+    },
+    "qu22": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu23": {
+      "subsection": "Para Summary",
+      "difficulty": "VD"
+    },
+    "qu24": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    }
+  },
+  "2615_DILR": {
+    "qu1": {
+      "subsection": "Case",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Case",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Case",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Case",
+      "difficulty": "VD"
+    },
+    "qu5": {
+      "subsection": "Case",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "VD"
+    },
+    "qu17": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "VD"
+    },
+    "qu18": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "VD"
+    },
+    "qu19": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "VD"
+    },
+    "qu20": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "VD"
+    }
+  },
+  "2615_QA": {
+    "qu1": {
+      "subsection": "AMA",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Number Systems",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "P&C",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu5": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "Time & Distance",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Indices & Surds",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Functions",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Numbers",
+      "difficulty": "E"
+    },
+    "qu11": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "RPV",
+      "difficulty": "E"
+    },
+    "qu14": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Progressions",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Simple Equations",
+      "difficulty": "E"
+    },
+    "qu17": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu18": {
+      "subsection": "SI/CI",
+      "difficulty": "E"
+    },
+    "qu19": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Logs",
+      "difficulty": "E"
+    },
+    "qu21": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Logs",
+      "difficulty": "E"
+    }
+  },
+  "2614_VARC": {
+    "qu1": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu7": {
+      "subsection": "Purpose Specific",
+      "difficulty": "VD"
+    },
+    "qu8": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Detail Specific",
+      "difficulty": "E"
+    },
+    "qu11": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu15": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu16": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Odd One Out",
+      "difficulty": "VD"
+    },
+    "qu19": {
+      "subsection": "Para Formation",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Para Formation",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Sentence Position",
+      "difficulty": "E"
+    },
+    "qu23": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu24": {
+      "subsection": "Para Summary",
+      "difficulty": "VD"
+    }
+  },
+  "2614_DILR": {
+    "qu1": {
+      "subsection": "Scatter Chart",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Scatter Chart",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Scatter Chart",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Scatter Chart",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Scatter Chart",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Case",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Case",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Case",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Case",
+      "difficulty": "VD"
+    },
+    "qu14": {
+      "subsection": "Case",
+      "difficulty": "VD"
+    },
+    "qu15": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    }
+  },
+  "2614_QA": {
+    "qu1": {
+      "subsection": "Maxima/Minima",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "AMA",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Progressions",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Indices & Surds",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Inequalities",
+      "difficulty": "E"
+    },
+    "qu8": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "RPV",
+      "difficulty": "E"
+    },
+    "qu10": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Simple Equations",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "PPL",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Logs",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Number Systems",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Series",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Geo&Men",
+      "difficulty": "E"
+    },
+    "qu20": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu21": {
+      "subsection": "Probability",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    }
+  },
+  "2613_VARC": {
+    "qu1": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Theme Based",
+      "difficulty": "E"
+    },
+    "qu3": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Sentence Position",
+      "difficulty": "E"
+    },
+    "qu8": {
+      "subsection": "Theme Based",
+      "difficulty": "VD"
+    },
+    "qu9": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Example Specific",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Example Specific",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Odd One Out",
+      "difficulty": "VD"
+    },
+    "qu13": {
+      "subsection": "Para Summary",
+      "difficulty": "VD"
+    },
+    "qu14": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Para Summary",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu23": {
+      "subsection": "Odd One Out",
+      "difficulty": "M"
+    },
+    "qu24": {
+      "subsection": "Sentence Position",
+      "difficulty": "VD"
+    }
+  },
+  "2613_DILR": {
+    "qu1": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Venn Diagram",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Venn Diagram",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Venn Diagram",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "Venn Diagram",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Venn Diagram",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Bar Chart",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Bar Chart",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Bar Chart",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Bar Chart",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Case",
+      "difficulty": "VD"
+    },
+    "qu17": {
+      "subsection": "Case",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Case",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    }
+  },
+  "2613_QA": {
+    "qu1": {
+      "subsection": "Simple Equations",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Progressions",
+      "difficulty": "E"
+    },
+    "qu3": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Geo&Men",
+      "difficulty": "E"
+    },
+    "qu5": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Time & Distance",
+      "difficulty": "E"
+    },
+    "qu7": {
+      "subsection": "Simple Equations",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "AMA",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Progressions",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "RPV",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Maxima/Minima",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu14": {
+      "subsection": "Numbers",
+      "difficulty": "E"
+    },
+    "qu15": {
+      "subsection": "Logs",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu17": {
+      "subsection": "Graphs",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Inequalities",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Trigonometry",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "RPV",
+      "difficulty": "E"
+    },
+    "qu21": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    }
+  },
+  "2612_VARC": {
+    "qu1": {
+      "subsection": "Critical Reasoning",
+      "difficulty": "VD"
+    },
+    "qu2": {
+      "subsection": "Critical Reasoning",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Example Specific",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu9": {
+      "subsection": "Detail Specific",
+      "difficulty": "VD"
+    },
+    "qu10": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Para Formation",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Para Formation",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Odd One Out",
+      "difficulty": "VD"
+    },
+    "qu17": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Further Application",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Example Specific",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu23": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu24": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    }
+  },
+  "2612_DILR": {
+    "qu1": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Bar Chart",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Bar Chart",
+      "difficulty": "VD"
+    },
+    "qu15": {
+      "subsection": "Bar Chart",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Bar Chart",
+      "difficulty": "VD"
+    },
+    "qu17": {
+      "subsection": "Bar Chart",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    }
+  },
+  "2612_QA": {
+    "qu1": {
+      "subsection": "Special Equations",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Progressions",
+      "difficulty": "E"
+    },
+    "qu3": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Geo&Men",
+      "difficulty": "VD"
+    },
+    "qu6": {
+      "subsection": "Simple Equations",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Inequalities",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Trigonometry",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "P&C",
+      "difficulty": "VD"
+    },
+    "qu11": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Number Systems",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Statistics",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Maxima/Minima",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "AMA",
+      "difficulty": "E"
+    },
+    "qu18": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Simple Equations",
+      "difficulty": "E"
+    },
+    "qu20": {
+      "subsection": "Special Equations",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Coordinate Geometry",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    }
+  },
+  "2611_VARC": {
+    "qu1": {
+      "subsection": "Purpose Specific",
+      "difficulty": "VD"
+    },
+    "qu2": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu3": {
+      "subsection": "Example Specific",
+      "difficulty": "VD"
+    },
+    "qu4": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Sentence Position",
+      "difficulty": "VD"
+    },
+    "qu7": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Example Specific",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Literary Device",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Detail Specific",
+      "difficulty": "E"
+    },
+    "qu16": {
+      "subsection": "Literary Device",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Detail Specific",
+      "difficulty": "E"
+    },
+    "qu18": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Example Specific",
+      "difficulty": "M"
+    },
+    "qu23": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu24": {
+      "subsection": "Odd One Out",
+      "difficulty": "E"
+    }
+  },
+  "2611_DILR": {
+    "qu1": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "E"
+    },
+    "qu6": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "E"
+    },
+    "qu7": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "E"
+    },
+    "qu8": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "E"
+    },
+    "qu9": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Networks and Routes",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Seating Arrangement",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Seating Arrangement",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Seating Arrangement",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Seating Arrangement",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Case",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Case",
+      "difficulty": "VD"
+    },
+    "qu20": {
+      "subsection": "Case",
+      "difficulty": "VD"
+    },
+    "qu21": {
+      "subsection": "Case",
+      "difficulty": "VD"
+    },
+    "qu22": {
+      "subsection": "Case",
+      "difficulty": "VD"
+    }
+  },
+  "2611_QA": {
+    "qu1": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "RPV",
+      "difficulty": "E"
+    },
+    "qu5": {
+      "subsection": "AMA",
+      "difficulty": "E"
+    },
+    "qu6": {
+      "subsection": "Maxima/Minima",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "P&C",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Simple Equations",
+      "difficulty": "E"
+    },
+    "qu12": {
+      "subsection": "Logs",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "P&C",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Coordinate Geometry",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "P&C",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "RPV",
+      "difficulty": "E"
+    },
+    "qu20": {
+      "subsection": "Maxima/Minima",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "RPV",
+      "difficulty": "M"
+    }
+  },
+  "2610_VARC": {
+    "qu1": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Further Application",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Purpose Specific",
+      "difficulty": "VD"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "CR Advanced",
+      "difficulty": "VD"
+    },
+    "qu12": {
+      "subsection": "Purpose Specific",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Literary Device",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Odd One Out",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Para Summary",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Sentence Position",
+      "difficulty": "E"
+    },
+    "qu20": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Para Summary",
+      "difficulty": "VD"
+    },
+    "qu22": {
+      "subsection": "Para Summary",
+      "difficulty": "M"
+    },
+    "qu23": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu24": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    }
+  },
+  "2610_DILR": {
+    "qu1": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Case",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Case",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "E"
+    },
+    "qu6": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "E"
+    },
+    "qu7": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "E"
+    },
+    "qu8": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "E"
+    },
+    "qu9": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "VD"
+    },
+    "qu13": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "VD"
+    },
+    "qu14": {
+      "subsection": "Selections",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Selections",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Selections",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Selections",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Line Chart",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Line Chart",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Line Chart",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Line Chart",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Line Chart",
+      "difficulty": "D"
+    }
+  },
+  "2610_QA": {
+    "qu1": {
+      "subsection": "P&C",
+      "difficulty": "VD"
+    },
+    "qu2": {
+      "subsection": "Special Equations",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Indices & Surds",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Numbers",
+      "difficulty": "VD"
+    },
+    "qu6": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "E"
+    },
+    "qu7": {
+      "subsection": "Trigonometry",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "AMA",
+      "difficulty": "E"
+    },
+    "qu9": {
+      "subsection": "Miscellaneous",
+      "difficulty": "E"
+    },
+    "qu10": {
+      "subsection": "Coordinate Geometry",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Functions",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Series",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "RPV",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Graphs",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Simple Equations",
+      "difficulty": "E"
+    },
+    "qu20": {
+      "subsection": "P&C",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Inequalities",
+      "difficulty": "M"
+    }
+  },
+  "2609_VARC": {
+    "qu1": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu3": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu5": {
+      "subsection": "Sentence Position",
+      "difficulty": "VD"
+    },
+    "qu6": {
+      "subsection": "Odd One Out",
+      "difficulty": "VD"
+    },
+    "qu7": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Example Specific",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "CR Advanced",
+      "difficulty": "VD"
+    },
+    "qu15": {
+      "subsection": "Further Application",
+      "difficulty": "VD"
+    },
+    "qu16": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu17": {
+      "subsection": "Odd One Out",
+      "difficulty": "E"
+    },
+    "qu18": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu23": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    }
+  },
+  "2609_DILR": {
+    "qu1": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "E"
+    },
+    "qu6": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "E"
+    },
+    "qu7": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "E"
+    },
+    "qu8": {
+      "subsection": "Ordering and Sequencing",
+      "difficulty": "E"
+    },
+    "qu9": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Table",
+      "difficulty": "VD"
+    },
+    "qu14": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "VD"
+    },
+    "qu15": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "VD"
+    },
+    "qu17": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Games and Tournaments",
+      "difficulty": "VD"
+    },
+    "qu19": {
+      "subsection": "Pie Chart",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Pie Chart",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Pie Chart",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Pie Chart",
+      "difficulty": "D"
+    }
+  },
+  "2609_QA": {
+    "qu1": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "RPV",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "AMA",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Functions",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "Number Systems",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "PPL",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Functions",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Indices & Surds",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Progressions",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Coordinate Geometry",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "RPV",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "RPV",
+      "difficulty": "E"
+    },
+    "qu18": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "PPL",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Maxima/Minima",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Indices & Surds",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Trigonometry",
+      "difficulty": "M"
+    }
+  },
+  "2608_VARC": {
+    "qu1": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Example Specific",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Para Completion",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Theme Based",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Para Completion",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu19": {
+      "subsection": "Detail Specific",
+      "difficulty": "VD"
+    },
+    "qu20": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Literary Device",
+      "difficulty": "VD"
+    },
+    "qu22": {
+      "subsection": "Para Completion",
+      "difficulty": "D"
+    },
+    "qu23": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    },
+    "qu24": {
+      "subsection": "Sentence Position",
+      "difficulty": "VD"
+    }
+  },
+  "2608_DILR": {
+    "qu1": {
+      "subsection": "Bar Chart",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Bar Chart",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Bar Chart",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Bar Chart",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Bar Chart",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Stacked Bar Chart",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Stacked Bar Chart",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Stacked Bar Chart",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Stacked Bar Chart",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Distribution",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "E"
+    },
+    "qu20": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "E"
+    },
+    "qu21": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "E"
+    },
+    "qu22": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "E"
+    }
+  },
+  "2608_QA": {
+    "qu1": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Indices & Surds",
+      "difficulty": "E"
+    },
+    "qu3": {
+      "subsection": "P&C",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Trigonometry",
+      "difficulty": "VD"
+    },
+    "qu5": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "Simple Equations",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu9": {
+      "subsection": "Numbers",
+      "difficulty": "VD"
+    },
+    "qu10": {
+      "subsection": "Special Equations",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Maxima/Minima",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "P&C",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Progressions",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Inequalities",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Time & Distance",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Coordinate Geometry",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Logs",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "RPV",
+      "difficulty": "E"
+    },
+    "qu22": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    }
+  },
+  "2607_VARC": {
+    "qu1": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu4": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Para Formation",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Purpose Specific",
+      "difficulty": "VD"
+    },
+    "qu13": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Literary Device",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Sentence Position",
+      "difficulty": "VD"
+    },
+    "qu23": {
+      "subsection": "Para Summary",
+      "difficulty": "VD"
+    },
+    "qu24": {
+      "subsection": "Para Formation",
+      "difficulty": "D"
+    }
+  },
+  "2607_DILR": {
+    "qu1": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Venn Diagrams",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Bubble Chart",
+      "difficulty": "E"
+    },
+    "qu20": {
+      "subsection": "Bubble Chart",
+      "difficulty": "E"
+    },
+    "qu21": {
+      "subsection": "Bubble Chart",
+      "difficulty": "E"
+    },
+    "qu22": {
+      "subsection": "Bubble Chart",
+      "difficulty": "E"
+    }
+  },
+  "2607_QA": {
+    "qu1": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "SI/CI",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "AMA",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Simple Equations",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "AMA",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Graphs",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "P&C",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "RPV",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Functions",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Simple Equations",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu14": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Progressions",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Coordinate Geometry",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Series",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Higher Equations",
+      "difficulty": "M"
+    }
+  },
+  "2606_VARC": {
+    "qu1": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Further Application",
+      "difficulty": "VD"
+    },
+    "qu5": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Purpose Specific",
+      "difficulty": "VD"
+    },
+    "qu7": {
+      "subsection": "Further Application",
+      "difficulty": "VD"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu9": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu10": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Sentence Position",
+      "difficulty": "VD"
+    },
+    "qu12": {
+      "subsection": "Detail Specific",
+      "difficulty": "E"
+    },
+    "qu13": {
+      "subsection": "Example Specific",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Odd One Out",
+      "difficulty": "M"
+    },
+    "qu17": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "CR Advanced",
+      "difficulty": "VD"
+    },
+    "qu23": {
+      "subsection": "Sentence Position",
+      "difficulty": "E"
+    },
+    "qu24": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    }
+  },
+  "2606_DILR": {
+    "qu1": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Miscellaneous",
+      "difficulty": "VD"
+    },
+    "qu5": {
+      "subsection": "Miscellaneous",
+      "difficulty": "VD"
+    },
+    "qu6": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Distribution",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "Linear Sequencing",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu18": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Case",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Case",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Case",
+      "difficulty": "D"
+    }
+  },
+  "2606_QA": {
+    "qu1": {
+      "subsection": "Number Systems",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "Graphs",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Progressions",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Simple Equations",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Inequalities",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "Time & Distance",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Indices & Surds",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Functions",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Miscellaneous",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Maxima/Minima",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "PPL",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "P&C",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Coordinate Geometry",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Probability",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Special Equations",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "P&C",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Numbers",
+      "difficulty": "M"
+    }
+  },
+  "2605_VARC": {
+    "qu1": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu2": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu3": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Detail Specific",
+      "difficulty": "VD"
+    },
+    "qu5": {
+      "subsection": "Para Summary",
+      "difficulty": "M"
+    },
+    "qu6": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu9": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Theme Based",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Example Specific",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Detail Specific",
+      "difficulty": "VD"
+    },
+    "qu18": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu21": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Sentence Position",
+      "difficulty": "E"
+    },
+    "qu23": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    }
+  },
+  "2605_DILR": {
+    "qu1": {
+      "subsection": "Binary Logic",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Binary Logic",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Binary Logic",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Binary Logic",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "Table",
+      "difficulty": "VD"
+    },
+    "qu9": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Table",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Distribution",
+      "difficulty": "E"
+    },
+    "qu16": {
+      "subsection": "Distribution",
+      "difficulty": "E"
+    },
+    "qu17": {
+      "subsection": "Distribution",
+      "difficulty": "E"
+    },
+    "qu18": {
+      "subsection": "Distribution",
+      "difficulty": "E"
+    },
+    "qu19": {
+      "subsection": "Networks and Routes",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Networks and Routes",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Networks and Routes",
+      "difficulty": "M"
+    }
+  },
+  "2605_QA": {
+    "qu1": {
+      "subsection": "SI/CI",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "RPV",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Number Systems",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Trigonometry",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Higher Equations",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Series",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Graphs",
+      "difficulty": "D"
+    },
+    "qu11": {
+      "subsection": "P&C",
+      "difficulty": "VD"
+    },
+    "qu12": {
+      "subsection": "Special Equations",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Miscellaneous",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Coordinate Geometry",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Progressions",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Simple Equations",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Statistics",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Simple Equations",
+      "difficulty": "E"
+    }
+  },
+  "2604_VARC": {
+    "qu1": {
+      "subsection": "CR Inference",
+      "difficulty": "VD"
+    },
+    "qu2": {
+      "subsection": "Example Specific",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Further Application",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu7": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu10": {
+      "subsection": "Detail Specific",
+      "difficulty": "E"
+    },
+    "qu11": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Further Application",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Odd One Out",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "Para Completion",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Para Completion",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Para Formation",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Sentence Position",
+      "difficulty": "E"
+    },
+    "qu23": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu24": {
+      "subsection": "Para Formation",
+      "difficulty": "D"
+    }
+  },
+  "2604_DILR": {
+    "qu1": {
+      "subsection": "Stacked Bar",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Stacked Bar",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Stacked Bar",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Stacked Bar",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Stacked Bar",
+      "difficulty": "VD"
+    },
+    "qu6": {
+      "subsection": "Pie Chart",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Pie Chart",
+      "difficulty": "D"
+    },
+    "qu8": {
+      "subsection": "Pie Chart",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Pie Chart",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Quant Based Reasoning",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Case",
+      "difficulty": "VD"
+    },
+    "qu15": {
+      "subsection": "Case",
+      "difficulty": "VD"
+    },
+    "qu16": {
+      "subsection": "Case",
+      "difficulty": "VD"
+    },
+    "qu17": {
+      "subsection": "Case",
+      "difficulty": "VD"
+    },
+    "qu18": {
+      "subsection": "Case",
+      "difficulty": "VD"
+    },
+    "qu19": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "Table",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Table",
+      "difficulty": "M"
+    }
+  },
+  "2604_QA": {
+    "qu1": {
+      "subsection": "Progressions",
+      "difficulty": "D"
+    },
+    "qu2": {
+      "subsection": "Time & Work",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu4": {
+      "subsection": "Simple Equations",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "Inequalities",
+      "difficulty": "E"
+    },
+    "qu9": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "RPV",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "P&C",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "Higher Equations",
+      "difficulty": "VD"
+    },
+    "qu13": {
+      "subsection": "Logs",
+      "difficulty": "E"
+    },
+    "qu14": {
+      "subsection": "Time & Distance",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "AMA",
+      "difficulty": "M"
+    },
+    "qu16": {
+      "subsection": "Trigonometry",
+      "difficulty": "VD"
+    },
+    "qu17": {
+      "subsection": "Number Systems",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu19": {
+      "subsection": "AMA",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "Maxima/Minima",
+      "difficulty": "VD"
+    },
+    "qu21": {
+      "subsection": "SI/CI",
+      "difficulty": "E"
+    },
+    "qu22": {
+      "subsection": "Geo&Men",
+      "difficulty": "D"
+    }
+  },
+  "2603_VARC": {
+    "qu1": {
+      "subsection": "Odd One Out",
+      "difficulty": "E"
+    },
+    "qu2": {
+      "subsection": "Literary Device",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "CR Advanced",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Example Specific",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "CR Inference",
+      "difficulty": "D"
+    },
+    "qu6": {
+      "subsection": "Para Summary",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Further Application",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu9": {
+      "subsection": "Detail Specific",
+      "difficulty": "D"
+    },
+    "qu10": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Sentence Position",
+      "difficulty": "VD"
+    },
+    "qu12": {
+      "subsection": "Sentence Position",
+      "difficulty": "M"
+    },
+    "qu13": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu14": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu15": {
+      "subsection": "Further Application",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Theme Based",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Para Summary",
+      "difficulty": "VD"
+    },
+    "qu18": {
+      "subsection": "Para Summary",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Sentence Position",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Literary Device",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "CR Inference",
+      "difficulty": "M"
+    },
+    "qu22": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu23": {
+      "subsection": "Detail Specific",
+      "difficulty": "M"
+    },
+    "qu24": {
+      "subsection": "Odd One Out",
+      "difficulty": "D"
+    }
+  },
+  "2603_DILR": {
+    "qu1": {
+      "subsection": "Scatter Chart",
+      "difficulty": "E"
+    },
+    "qu2": {
+      "subsection": "Scatter Chart",
+      "difficulty": "M"
+    },
+    "qu3": {
+      "subsection": "Scatter Chart",
+      "difficulty": "M"
+    },
+    "qu4": {
+      "subsection": "Scatter Chart",
+      "difficulty": "M"
+    },
+    "qu5": {
+      "subsection": "Table",
+      "difficulty": "VD"
+    },
+    "qu6": {
+      "subsection": "Table",
+      "difficulty": "VD"
+    },
+    "qu7": {
+      "subsection": "Table",
+      "difficulty": "VD"
+    },
+    "qu8": {
+      "subsection": "Table",
+      "difficulty": "VD"
+    },
+    "qu9": {
+      "subsection": "Table",
+      "difficulty": "VD"
+    },
+    "qu10": {
+      "subsection": "Networks and Routes",
+      "difficulty": "VD"
+    },
+    "qu11": {
+      "subsection": "Networks and Routes",
+      "difficulty": "M"
+    },
+    "qu12": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu13": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Networks and Routes",
+      "difficulty": "D"
+    },
+    "qu15": {
+      "subsection": "Selections",
+      "difficulty": "E"
+    },
+    "qu16": {
+      "subsection": "Selections",
+      "difficulty": "E"
+    },
+    "qu17": {
+      "subsection": "Selections",
+      "difficulty": "E"
+    },
+    "qu18": {
+      "subsection": "Selections",
+      "difficulty": "E"
+    },
+    "qu19": {
+      "subsection": "Seating Arrangement",
+      "difficulty": "D"
+    },
+    "qu20": {
+      "subsection": "Seating Arrangement",
+      "difficulty": "D"
+    },
+    "qu21": {
+      "subsection": "Seating Arrangement",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Seating Arrangement",
+      "difficulty": "D"
+    }
+  },
+  "2603_QA": {
+    "qu1": {
+      "subsection": "Quadratic Equations",
+      "difficulty": "M"
+    },
+    "qu2": {
+      "subsection": "SI/CI",
+      "difficulty": "D"
+    },
+    "qu3": {
+      "subsection": "Logs",
+      "difficulty": "D"
+    },
+    "qu4": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    },
+    "qu5": {
+      "subsection": "Geo&Men",
+      "difficulty": "E"
+    },
+    "qu6": {
+      "subsection": "Maxima/Minima",
+      "difficulty": "D"
+    },
+    "qu7": {
+      "subsection": "Time & Work",
+      "difficulty": "M"
+    },
+    "qu8": {
+      "subsection": "AMA",
+      "difficulty": "D"
+    },
+    "qu9": {
+      "subsection": "Progressions",
+      "difficulty": "E"
+    },
+    "qu10": {
+      "subsection": "Coordinate Geometry",
+      "difficulty": "M"
+    },
+    "qu11": {
+      "subsection": "Sets & Relations",
+      "difficulty": "D"
+    },
+    "qu12": {
+      "subsection": "PPL",
+      "difficulty": "E"
+    },
+    "qu13": {
+      "subsection": "P&C",
+      "difficulty": "D"
+    },
+    "qu14": {
+      "subsection": "Indices & Surds",
+      "difficulty": "E"
+    },
+    "qu15": {
+      "subsection": "Functions",
+      "difficulty": "D"
+    },
+    "qu16": {
+      "subsection": "Series",
+      "difficulty": "D"
+    },
+    "qu17": {
+      "subsection": "Time & Distance",
+      "difficulty": "M"
+    },
+    "qu18": {
+      "subsection": "Geo&Men",
+      "difficulty": "M"
+    },
+    "qu19": {
+      "subsection": "Probability",
+      "difficulty": "M"
+    },
+    "qu20": {
+      "subsection": "RPV",
+      "difficulty": "M"
+    },
+    "qu21": {
+      "subsection": "P&C",
+      "difficulty": "D"
+    },
+    "qu22": {
+      "subsection": "Numbers",
+      "difficulty": "D"
+    }
+  }
+}

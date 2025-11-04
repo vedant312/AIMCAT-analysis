@@ -6,6 +6,7 @@ import qa_paper from './paper/qa_papers.json';
 import vedant_response from './vedant_response.json';
 import rajat_response from './rajat_response.json';
 import answer_key from './answer/answer_key.json';
+import questions_type_data from './questions_type_data.json';
 import Question from './Question';
 
 const PAPER_CONTENT_MAP = {
@@ -17,6 +18,7 @@ const PAPER_CONTENT_MAP = {
 const ANSWER_KEY_CONTENT = answer_key;
 const VEDANT_RESPONSE_CONTENT = vedant_response;
 const RAJAT_RESPONSE_CONTENT = rajat_response;
+const QUESTION_TYPE_DATA = questions_type_data;
 
 const combineAllDataForSection = (section, activeUser, otherResponses) => {
   const allQuestions = [];
@@ -30,6 +32,8 @@ const combineAllDataForSection = (section, activeUser, otherResponses) => {
 
       // Look up answers and responses in their separate simulated JSON files
       const answers = ANSWER_KEY_CONTENT[paperKey] || {};
+      const typeDataForPaper = QUESTION_TYPE_DATA[paperKey] || {};
+
       let responses;
       if (activeUser === 'VEDANT') {
         responses = VEDANT_RESPONSE_CONTENT[paperKey] || {};
@@ -63,6 +67,8 @@ const combineAllDataForSection = (section, activeUser, otherResponses) => {
           const correct = answers[qKey]?.toLowerCase() || '';
           const userResponse = responses[qKey]?.toLowerCase() || '';
 
+          // Get the specific type data for the question
+          const questionType = typeDataForPaper[qKey] || {}; // <--- GET QUESTION TYPE
           let status;
           if (userResponse !== correct && userResponse !== 'n') {
             status = 'WRONG';
@@ -91,6 +97,8 @@ const combineAllDataForSection = (section, activeUser, otherResponses) => {
             essay: paper.ENGLISH?.EASSY_DETAILS || '',
             essay_id: paper.ENGLISH?.ESSAY_ID || '',
             userResponse: userResponse === 'n' ? 'Skipped' : userResponse,
+            subsection: questionType.subsection || 'N/A',
+            difficulty: questionType.difficulty || 'N/A',
           });
         }
       }
@@ -106,6 +114,7 @@ const SectionTab = ({
   isFetchingOtherData,
 }) => {
   const [filter, setFilter] = useState('ALL'); // 'ALL', 'CORRECT', 'SKIPPED', 'WRONG'
+  const [subsectionFilter, setSubsectionFilter] = useState('ALL');
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [questions, setQuestions] = useState([]);
@@ -126,15 +135,56 @@ const SectionTab = ({
     setIsLoading(false);
   }, [section, activeUser, otherUserResponses, isFetchingOtherData]); // Added dependencies
 
+  // NEW: Calculate unique subsections and their counts based on the current status filter
+  const subsectionsData = useMemo(() => {
+    // 1. Apply status filter (ALL, CORRECT, WRONG, SKIPPED)
+    const statusFiltered =
+      filter === 'ALL'
+        ? questions
+        : questions.filter((q) => q.status === filter);
+
+    // 2. Calculate counts for each subsection
+    const counts = statusFiltered.reduce((acc, q) => {
+      acc[q.subsection] = (acc[q.subsection] || 0) + 1;
+      return acc;
+    }, {});
+
+    // 3. Get sorted list of unique subsections
+    const sortedSubsections = Object.keys(counts).sort();
+
+    // 4. Calculate total count for the "ALL" option in the dropdown
+    const totalStatusFilteredCount = Object.values(counts).reduce(
+      (sum, count) => sum + count,
+      0
+    );
+
+    return { sortedSubsections, counts, totalStatusFilteredCount };
+  }, [questions, filter]); // Now depends on 'filter'
+
+  // Destructure for easier use
+  const {
+    sortedSubsections,
+    counts: subsectionCounts,
+    totalStatusFilteredCount,
+  } = subsectionsData;
+
   // Filtered questions are memoized for performance
   const filteredQuestions = useMemo(() => {
-    if (filter === 'ALL') {
-      return questions.sort((a, b) => b.tno - a.tno); // Sort by TNO descending
+    let filtered = questions;
+
+    // 1. Filter by Status (ALL, CORRECT, WRONG, SKIPPED)
+    if (filter !== 'ALL') {
+      filtered = filtered.filter((q) => q.status === filter);
     }
-    return questions
-      .filter((q) => q.status === filter)
-      .sort((a, b) => b.tno - a.tno);
-  }, [questions, filter]);
+
+    // 2. Filter by Subsection (ALL or specific subsection)
+    if (subsectionFilter !== 'ALL') {
+      filtered = filtered.filter((q) => q.subsection === subsectionFilter);
+    }
+
+    // 3. Sort by TNO descending
+    return filtered.sort((a, b) => b.tno - a.tno);
+  }, [questions, filter, subsectionFilter]);
 
   // Handle loading state for fetch
   if (isFetchingOtherData) {
@@ -232,6 +282,38 @@ const SectionTab = ({
           Skipped ({statusCounts.SKIPPED || 0})
         </button>
       </div>
+
+      <div className='mb-6 p-3 bg-white rounded-xl shadow-inner border'>
+        <label
+          htmlFor='subsection-select'
+          className='text-sm font-medium text-gray-700 mr-3'
+        >
+          Filter by Sub-Section:
+        </label>
+        <select
+          id='subsection-select'
+          value={subsectionFilter}
+          onChange={(e) => {
+            setSubsectionFilter(e.target.value);
+            setCurrentQuestionIndex(0); // Reset index on filter change
+          }}
+          className='mt-1 block w-full md:w-auto pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md'
+        >
+          <option value='ALL'>
+            ALL Subsections ({totalStatusFilteredCount})
+          </option>
+          {sortedSubsections.map((sub) => {
+            // Use the pre-calculated count based on the current status filter
+            const count = subsectionCounts[sub];
+            return (
+              <option key={sub} value={sub}>
+                {sub} ({count})
+              </option>
+            );
+          })}
+        </select>
+      </div>
+
       <div className='question-navigation-controls'>
         <button
           className='nav-button prev'
@@ -362,11 +444,6 @@ const PaperAnalysis = () => {
     try {
       const responses = await mockFetchUserResponse(fetchId);
       setOtherUserResponses(responses);
-      console.log(
-        `Successfully loaded ${
-          Object.keys(responses).length
-        } custom papers for ID: ${fetchId}`
-      );
     } catch (e) {
       console.error('Failed to fetch custom user data:', e);
       setOtherUserResponses({}); // Clear responses on failure

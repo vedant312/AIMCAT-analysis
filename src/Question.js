@@ -19,10 +19,7 @@ const solutionUrl = (testNumber, questionNumber, sectionNumber) => {
   return `https://www.time4education.com/moodle/aimcatsolutions/images/AIMCAT${testNumber}/Section-${sectionNumber}/Q${questionNumber}S.gif`;
 };
 
-function Question({
-  activeSection,
-  questionData,
-}) {
+function Question({ activeSection, questionData }) {
   const sectionNumberMap = {
     VARC: '1',
     DILR: '2',
@@ -40,6 +37,8 @@ function Question({
     status,
     essay,
     tno,
+    subsection,
+    difficulty,
   } = questionData;
 
   const [showAnswer, setShowAnswer] = useState(false);
@@ -83,6 +82,10 @@ function Question({
             size={18}
             title={label}
           />
+          <span className='metadata-text'>
+            {subsection} | Difficulty: {difficulty}
+          </span>
+
           <div
             dangerouslySetInnerHTML={{ __html: cleanHtmlString(essay) }}
           ></div>
