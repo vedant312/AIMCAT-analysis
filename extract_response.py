@@ -12,11 +12,11 @@ def extract_answer_strings():
     """
     
     # Configuration for the new API endpoint
-    base_url_template = "https://www.time4education.com/moodle/aimcatsolutions/get_ansstr.asp?tno={number}&area={section}&id=DRCAB5A283"
+    base_url_template = "https://www.time4education.com/moodle/aimcatsolutions/get_ansstr.asp?tno={number}&area={section}&id=DRCBB5A186"
     start_number = 2625
     end_number = 2601  # Inclusive
     sections = ["VARC", "DILR", "QA"]
-    output_filename = "rajat_response.json"
+    output_filename = "ishani_response.json"
     
     # Aggregation Dictionary
     all_responses = {}

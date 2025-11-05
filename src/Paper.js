@@ -5,6 +5,7 @@ import dilr_paper from './paper/dilr_papers.json';
 import qa_paper from './paper/qa_papers.json';
 import vedant_response from './vedant_response.json';
 import rajat_response from './rajat_response.json';
+import ishani_response from './ishani_response.json';
 import answer_key from './answer/answer_key.json';
 import questions_type_data from './questions_type_data.json';
 import Question from './Question';
@@ -18,6 +19,7 @@ const PAPER_CONTENT_MAP = {
 const ANSWER_KEY_CONTENT = answer_key;
 const VEDANT_RESPONSE_CONTENT = vedant_response;
 const RAJAT_RESPONSE_CONTENT = rajat_response;
+const ISHANI_RESPONSE_CONTENT = ishani_response;
 const QUESTION_TYPE_DATA = questions_type_data;
 
 const combineAllDataForSection = (section, activeUser) => {
@@ -39,6 +41,10 @@ const combineAllDataForSection = (section, activeUser) => {
         responses = VEDANT_RESPONSE_CONTENT[paperKey] || {};
       } else if (activeUser === 'RAJAT') {
         responses = RAJAT_RESPONSE_CONTENT[paperKey] || {};
+      } else if (activeUser === 'ISHANI') {
+        responses = ISHANI_RESPONSE_CONTENT[paperKey] || {};
+      } else {
+        responses = {};
       }
 
       // --- START: NEW EXCLUSION LOGIC ---
@@ -105,10 +111,7 @@ const combineAllDataForSection = (section, activeUser) => {
   return allQuestions;
 };
 
-const SectionTab = ({
-  section,
-  activeUser,
-}) => {
+const SectionTab = ({ section, activeUser }) => {
   const [filter, setFilter] = useState('ALL'); // 'ALL', 'CORRECT', 'SKIPPED', 'WRONG'
   const [subsectionFilter, setSubsectionFilter] = useState('ALL');
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -117,13 +120,9 @@ const SectionTab = ({
 
   // Data fetching and processing happens only when the component mounts or section changes
   useEffect(() => {
-
     setIsLoading(true);
     // Pass the otherUserResponses to the combiner
-    const combined = combineAllDataForSection(
-      section,
-      activeUser
-    );
+    const combined = combineAllDataForSection(section, activeUser);
     setQuestions(combined);
     setCurrentQuestionIndex(0);
     setIsLoading(false);
@@ -330,13 +329,10 @@ const SectionTab = ({
   );
 };
 
-
 // 4. Paper Analysis Component (Main route for analysis)
 const PaperAnalysis = () => {
   const [activeTab, setActiveTab] = useState('VARC'); // VARC, DILR, QA
   const [activeUser, setActiveUser] = useState('VEDANT'); // VEDANT, RAJAT
-
-
 
   // Tailwind CSS classes for aesthetics
   const buttonBase =
@@ -372,9 +368,18 @@ const PaperAnalysis = () => {
           >
             Rajat
           </button>
+          <button
+            onClick={() => setActiveUser('ISHANI')}
+            className={`${buttonBase} ${
+              activeUser === 'ISHANI'
+                ? 'bg-indigo-600 text-white shadow-indigo-400'
+                : 'bg-white text-indigo-600 border border-indigo-400 hover:bg-indigo-50'
+            }`}
+          >
+            ISHANI
+          </button>
         </div>
       </div>
-
 
       {/* Tabs Navigation */}
       <div className='flex border-b border-gray-200 mb-18 bg-gray-50 z-10 shadow-sm rounded-t-xl'>
