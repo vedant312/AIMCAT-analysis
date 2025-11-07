@@ -3,9 +3,30 @@ import './styles.css';
 import { CheckCircle, XCircle, MinusCircle } from 'lucide-react';
 
 // Helper function to clean up HTML strings
+// Function to decode HTML entities (like &dollar; or &#8377;)
+const decodeHTMLEntities = (text) => {
+  // Create a temporary element
+  const textArea = document.createElement('textarea');
+  textArea.innerHTML = text;
+  // The browser automatically decodes the entities when setting innerHTML
+  return textArea.value;
+};
+
 const cleanHtmlString = (htmlString) => {
   const safeHtmlString = htmlString || '';
-  return safeHtmlString
+
+  // 1. **Apply Unicode/UTF-8 Cleanup for known corruptions** (Crucial for your specific issue)
+  let decodedString = safeHtmlString
+    .replace(/\u00e2\u0080\u0093/g, '–') // En Dash
+    .replace(/\u00e2\u0080\u00a6/g, '…') // Ellipsis
+    .replace(/\u00e2\u0080\u0099/g, '’'); // Apostrophe
+  // Add other specific corruptions here if you find them!
+
+  // 2. **Decode all remaining HTML entities** (Handles $, ₹, €, <, >, etc.)
+  decodedString = decodeHTMLEntities(decodedString);
+
+  // 3. Perform the existing HTML cleanup
+  return decodedString
     .replace(/<\/span>/g, '</span><br>')
     .replace(/<\/?span[^>]*>/g, '')
     .replace(/<\/?p[^>]*>/g, '')
