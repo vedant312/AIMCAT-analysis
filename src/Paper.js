@@ -311,6 +311,9 @@ const SectionTab = ({ section, activeUser }) => {
         >
           Next
         </button>
+        <strong>
+          Question {currentQuestionIndex + 1} of {filteredQuestions.length}
+        </strong>
       </div>
       <div className='space-y-4'>
         <Question
