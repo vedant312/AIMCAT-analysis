@@ -32,7 +32,7 @@ def extract_answer_strings():
         for section in sections:
             total_files_processed += 1
             url = base_url_template.format(number=num, section=section)
-            key_id = f"{num}_{section}_response"
+            key_id = f"{num}_{section}"
             print(f"Attempting to fetch {key_id} (File {total_files_processed})...")
             
             try:
